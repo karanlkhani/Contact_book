@@ -3,9 +3,11 @@ CONTACT BOOK USING PYTHON
 The following Python code implements a simple contact book application using the pandas library. The contact book grants the users to add contacts, delete contacts, display the list of contacts, and search for particular contacts.
 
 PACKAGES USED
+
 The code starts by importing the pandas library as pd. The pandas library provides powerful data manipulation and analysis tools, including data structures and operations for handling structured data.
 
 CSV FILE
+
 The code uses a CSV file, contacts.csv, to store the contact information. The CONTACTS_FILE variable is set for the filename. The CSV file is used as a persistent storage for the contacts, allowing the user to add, display, and search contacts across different program executions.
 
 FUNCTIONS DESCRIPTION
@@ -15,5 +17,6 @@ FUNCTIONS DESCRIPTION
 4. main(): This function is the entry point of the program. It displays a menu to the user with four options: add a contact, display contacts, search contacts, or quit. The user's choice is taken as input using the input() function. Depending on the choice, the corresponding function is called. If an invalid choice is entered, an error message is displayed. The program continues to loop until the user chooses to quit.
 
 EXECUTION
+
 To execute the contact book, the main() function is called at the end of the script. It starts the program and displays the main menu. The user can choose options by entering the corresponding number. Based on the chosen option, the respective function is called, and the contact book operation is performed.
 This code can be further expanded to include additional functionalities such as updating or deleting contacts, sorting contacts, or handling duplicate entries.
